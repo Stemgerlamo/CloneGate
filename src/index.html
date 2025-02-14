@@ -19,17 +19,17 @@
             </div>
         </section>
     
-        <header class="z-10 fixed top-0 " onscroll="bgcha(this)" id="header">
+        <!-- <header class="z-10 fixed top-0  bg-white/85 w-full " onscroll="bgcha(this)" id="header">
                 <div class="flex items-center justify-between">
                     <div class="py-8 px-4 ">
-                        <img src="img/icon/UPenn-logo-pc.svg" alt="UPenn-logo-pc" class="h-16">
+                        <img src="img/UPenn-logo-pc .svg"  class="h-16">
                     </div>
                     <div>
-                        <img src="img/icon/search.svg" alt="search" class="">
+                        <img class="" src="img/search.svg" alt="search" class="">
                     </div>
                 </div>
                 
-        </header>
+        </header> -->
             
         <section class="py-40 px-4 bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/avian-bird-flu.jpg')] bg-cover text-white ">
             <div>
@@ -52,9 +52,9 @@
                     <div onclick="touch(this)" id="Topics" class="grid relative">
                         <div class="flex gap-14 items-center">
                             <h1 class="text-lg text-indigo-900 font-serif ">Topics</h1>
-                            <img src="img/icon/down.svg" alt="down" id="down">
+                            <img src="img/down.svg" alt="down" id="down">
                         </div>
-                        <div class=" bg-white w-48 px-2 py-4 right-1 grid gap-2 z-10 top-12 hidden absolute" id="nav1">
+                        <div class=" bg-white w-48 px-2 py-4 right-1  gap-2 z-10 top-12 hidden absolute" id="nav1">
                             <a href="#" class="text-gray-500 hover:text-red-900 hover:underline ">Featured</a>
                             <a href="#" class="hover:text-red-900 hover:underline">Arts, Humanities, & Social Sciences</a>
                             <a href="#" class="hover:text-red-900 hover:underline">Campus & Community</a>
@@ -174,12 +174,14 @@
                 <div class="flex flex-row space-x-4 px-2 py-4 mx-auto">
                     <div class="flex flex-col space-y-2 px-4 py-4">
                         <div class="relative group overflow-hidden max-w-xs">
-                            <img src="/src/img/grad-center-locust-walk.jpeg" alt="wow" class="hover:scale-105 transition ease-in-out">
+                            <img  src="/src/img/grad-center-locust-walk.jpeg" alt="wow" class="hover:scale-105 transition ease-in-out">
                             <div class="absolute w-60 h-64 bg-white top-70 left-0 py-4">
                             </div>
                         </div>
-                        <p class="text-xs uppercase tracking-widest font-medium mt-0">talks</p>
+                       <div class="relative bottom-10 bg-white w-[250px] p-4 ">
+                        <p class="text-xs relative uppercase tracking-widest font-medium mt-0">talks</p>
                         <div class="border-2 border-gray-400 w-4"></div>
+                       </div> 
                         <h3 class="text-xl font-serif text-indigo-950 mt-4">Managing Presentation Anxiety</h3>
                         <p class="text-medium text-gray-600 max-w-sm">Communication Within the Curriculum Associate Director Sue Weber offers tips and tricks to control anxiety during public speaking. 
                             A Penn graduate student ID is required
@@ -240,6 +242,58 @@
                     </div>
                 </div>
     
+            </div>
+        </div>
+        <!-- Stay connected -->
+        <div class="bg-white py-24">  
+            <div class=" mx-auto px-4 text-center">  
+              <h2 class="text-5xl font-serif text-blue-950 mb-4">Stay Connected</h2>
+              <div class="w-16 h-1 bg-[#94A0B8] mx-auto mb-12"></div>  
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">  
+                <div class="shadow-md h-full">
+                  <img src="img/dog.avif"  class="w-full h-full object-cover">
+                </div>
+    
+                <div class="bg-blue-950 text-white p-8 shadow-md flex flex-col justify-between h-full">  
+                  <p class="leading-relaxed text-start mb-6 font-medium pt-6 text-sm">  
+                    Scott Hensley of Penn Medicine says, “The worst thing we can do is be flat-footed and unprepared, 
+                    because this virus does represent a true pandemic risk.” Faculty members from @PennMedicine and 
+                    @PennVetSchool are working on a new vaccine for the H5N1 virus. They are studying how the virus is 
+                    transmitted and assisting the state in testing samples from birds and mammals.
+                  </p>
+                  <div class="flex items-center">
+                    <div class="w-10 h-10 bg-gray-400 rounded-full flex items-center justify-center text-white">
+                      <img src="img/x.svg"  class="">
+                    </div>
+                    <span class="ml-2 text-sm font-semibold">@PENN</span>
+                  </div>
+                </div>
+                
+                <div class=" shadow-md h-full">
+                  <img src="img/campus.avif" class="w-full h-full object-cover">
+                </div>
+              </div>
+              <!-- social media -->
+              <div class="flex justify-center items-center space-x-8 mt-12  ">  
+                <a href="#" class="text-gray-400 hover:text-blue-600 transition-colors rounded-full border-2 border-gray-300 p-3  ">
+                  <img class=" border-gray-600 " src="img/instagram.svg"  class="h-6 w-6">
+                </a>
+                <a href="#" class="text-gray-600 hover:text-blue-600 transition-colors rounded-full border-2 border-gray-300 p-2">
+                  <img  src="img/facebook.svg"  class="h-6 w-6 " >
+                </a>
+                <a href="#" class="text-gray-600 hover:text-blue-600 transition-colors rounded-full border-2 border-gray-300 ">
+                  <img src="img/twitter.svg"  class="h-10 w-10" >
+                </a>
+                <a href="#" class="text-gray-600 hover:text-blue-600 transition-colors rounded-full border-2 border-gray-300 p-2">
+                  <img src="img/flickr.svg"  class="h-6 w-6" >
+                </a>
+                <a href="#" class="text-gray-600 hover:text-blue-600 transition-colors rounded-full border-2 border-gray-300 p-2">
+                  <img src="img/youtube.svg"   class="h-6 w-6" >
+                </a>
+                <a href="#" class="text-gray-600 hover:text-blue-600 transition-colors rounded-full border-2 border-gray-300 p-2">
+                  <img src="img/linkedin.svg"  class="h-5 w-5">
+                </a>
+              </div>
             </div>
         </div>
         <script>
